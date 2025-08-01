@@ -4,24 +4,24 @@ import { motion } from 'framer-motion';
 const Contact = () => {
   const contactMethods = [
     {
-      icon: "📧",
+      icon: "fa-solid fa-envelope",
       title: "Email",
       link: "matthewsequeir@gmail.com",
       href: "mailto:matthewsequeir@gmail.com",
       note: "Best for project inquiries and collaborations"
     },
     {
-      icon: "🐙",
+      icon: "fa-brands fa-github",
       title: "GitHub",
       link: "github.com/mattseq",
       href: "https://github.com/mattseq",
       note: "Check out my open source projects"
     },
     {
-      icon: "💼",
+      icon: "fa-brands fa-linkedin",
       title: "LinkedIn",
       link: "linkedin.com/in/matthewsequeira",
-      href: "#",
+      href: "https://linkedin.com/in/matthew-sequeira-b43b71376",
       note: "Professional networking and opportunities"
     }
   ];
@@ -88,7 +88,7 @@ const Contact = () => {
                     transition: { duration: 0.2 }
                   }}
                 >
-                  {method.icon}
+                  <i className={method.icon}></i>
                 </motion.div>
                 
                 <motion.h3

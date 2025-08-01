@@ -4,25 +4,25 @@ import { motion } from 'framer-motion';
 const Experience = () => {
   const experiences = [
     {
-      date: "2023 - Present",
-      title: "Full Stack Developer",
-      company: "Freelance",
-      description: "Building modern web applications using React, Node.js, and various cloud services. Specializing in responsive design and user experience optimization.",
-      tags: ["React", "Node.js", "MongoDB", "AWS"]
+      date: "2020 - 2021",
+      title: "GitHub Account",
+      // company: "Freelance",
+      description: "Made a GitHub Account in 2020 and learned basic Python.",
+      tags: ["Python", "Github"]
     },
     {
-      date: "2022 - 2023",
+      date: "2022 - 2024",
       title: "Frontend Developer",
-      company: "Tech Startup",
-      description: "Developed responsive user interfaces and implemented modern design patterns. Collaborated with design and backend teams to deliver high-quality products.",
-      tags: ["JavaScript", "CSS3", "HTML5", "Git"]
+      // company: "Tech Startup",
+      description: "Learned basic Java and started making sparse commits to my brother's Minecraft mods. Began learning HTML, CSS, JavaScript, and C++",
+      tags: ["Java", "CSS", "HTML", "JavaScript", "C++", "Minecraft Modding"]
     },
     {
-      date: "2021 - 2022",
+      date: "2025 - Present",
       title: "Junior Developer",
-      company: "Digital Agency",
-      description: "Started my journey in web development, learning modern frameworks and best practices. Contributed to various client projects and internal tools.",
-      tags: ["HTML", "CSS", "JavaScript", "WordPress"]
+      // company: "Digital Agency",
+      description: "Began making regular commits to my own projects and learned React.js, Node.js, and React Native. I made my own Minecraft mods and started making my own React Native social media app.",
+      tags: ["React.js", "Node.js", "React Native", "Minecraft Modding"]
     }
   ];
 

@@ -327,6 +327,14 @@ a:hover {
   color: var(--accent);
   margin-bottom: 16px;
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.about-item h3 i {
+  color: var(--accent);
+  font-size: 1.2rem;
 }
 
 .about-item p {
@@ -1027,6 +1035,19 @@ a:hover {
   display: block;
 }
 
+/* Contact icon colors */
+.contact-icon .fa-envelope {
+  color: var(--accent); /* Website accent color */
+}
+
+.contact-icon .fa-github {
+  color: var(--accent); /* Website accent color */
+}
+
+.contact-icon .fa-linkedin {
+  color: var(--accent); /* Website accent color */
+}
+
 .contact-method h3 {
   color: var(--text-primary);
   margin-bottom: 15px;
@@ -1415,4 +1436,12 @@ a:hover {
   .contact-cta h3 {
     font-size: 1.2rem;
   }
+}
+
+.tagline-dynamic {
+  display: inline-block;
+  min-width: 140px;
+  font-weight: 600;
+  color: var(--accent);
+  transition: color 0.3s;
 }

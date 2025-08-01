@@ -55,7 +55,7 @@ const About = () => {
               className="about-intro"
               variants={itemVariants}
             >
-              I'm a passionate software developer with a love for creating innovative solutions and immersive experiences. My journey in technology started with a curiosity about how things work, which led me to explore various programming languages and frameworks.
+              Hey there! I'm Matt, a software developer who's passionate about turning ideas into reality through code. My journey started with a fascination for how games work, which led me to create Minecraft mods that thousands of players use daily. From there, I've expanded into web development, AI/ML projects, and everything in between - always driven by the thrill of building something that makes a real impact.
             </motion.p>
             
             <motion.div className="about-details" variants={itemVariants}>
@@ -66,8 +66,8 @@ const About = () => {
                   transition: { duration: 0.2 }
                 }}
               >
-                <h3>🎯 My Mission</h3>
-                <p>To create technology that not only solves problems but also brings joy and enhances human experiences. Whether it's a website, a game mod, or an AI application, I believe in building with purpose and passion.</p>
+                <h3><i className="fa-solid fa-bullseye"></i> My Mission</h3>
+                <p>To bridge the gap between imagination and reality through code. I love turning complex ideas into elegant solutions, whether that's building neural networks from scratch or creating immersive Minecraft experiences that bring communities together.</p>
               </motion.div>
               
               <motion.div
@@ -77,8 +77,8 @@ const About = () => {
                   transition: { duration: 0.2 }
                 }}
               >
-                <h3>🚀 What I Do</h3>
-                <p>I specialize in full-stack web development, AI/ML applications, and Minecraft modding. My work spans from interactive websites to complex game modifications that add new dimensions to player experiences.</p>
+                <h3><i className="fa-solid fa-rocket"></i> What I Do</h3>
+                <p>I'm a full-stack developer who thrives on diverse challenges. From crafting responsive web applications to developing AI systems and creating popular Minecraft mods that enhance gameplay, I enjoy pushing the boundaries of what's possible with code.</p>
               </motion.div>
               
               <motion.div
@@ -88,8 +88,8 @@ const About = () => {
                   transition: { duration: 0.2 }
                 }}
               >
-                <h3>💡 My Approach</h3>
-                <p>I believe in clean, maintainable code and user-centered design. Every project I work on is an opportunity to learn something new and push the boundaries of what's possible.</p>
+                <h3><i className="fa-solid fa-lightbulb"></i> My Approach</h3>
+                <p>I believe the best code comes from understanding both the technical requirements and the human experience. Every project is a chance to learn, innovate, and create something that makes a difference - whether it's helping players coordinate better in games or building AI that can recognize handwritten digits.</p>
               </motion.div>
             </motion.div>
           </motion.div>
